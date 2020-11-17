@@ -1,0 +1,1294 @@
+# Translation of Plugins - Matomo Analytics &#8211; Ethical Stats. Powerful Insights. - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - Matomo Analytics &#8211; Ethical Stats. Powerful Insights. - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-04-21 12:33:16+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - Matomo Analytics &#8211; Ethical Stats. Powerful Insights. - Stable (latest release)\n"
+
+#: classes/WpMatomo/Admin/GeolocationSettings.php:34
+msgid "Geolocation"
+msgstr "地理位置"
+
+#: classes/WpMatomo/Admin/views/info.php:31
+msgid ""
+"Matomo is a collaborative project brought to you by %1$sMatomo team%2$s members as well as many other contributors around the globe. If you like Matomo,\n"
+"        %3$splease give us a review%4$s and spread the word about us."
+msgstr ""
+"Matomo是%1$sMatomo团队%2$s成员以及全球许多其他贡献者为您带来的协作项目。如果您喜欢Matomo，\n"
+"        请%3$s给我们您的评论%4$s，并传播有关我们的消息。"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:60
+#: classes/WpMatomo/Admin/Menu.php:181 classes/WpMatomo/Admin/Menu.php:182
+msgid "Diagnostics"
+msgstr "诊断"
+
+#: classes/WpMatomo/Admin/views/advanced_settings.php:50
+msgid "Should your IP address not match the above value, your WordPress might be behind a proxy and you may need to select a different HTTP header depending on which of the values on the left shows your correct IP address."
+msgstr "如果您的IP地址与上述值不匹配，则WordPress可能位于代理后面，并且您可能需要选择其他HTTP标头，具体取决于左侧哪个值显示了正确的IP地址。"
+
+#: classes/WpMatomo/Admin/views/advanced_settings.php:49
+msgid "To compare this value with your actual IP address %1$splease click here%2$s."
+msgstr "要将此值与您的实际IP地址比较，%1$s请单击此处%2$s。"
+
+#: classes/WpMatomo/Admin/views/advanced_settings.php:47
+msgid "We detected you have the following IP address:"
+msgstr "我们检测到您具有以下IP地址："
+
+#: classes/WpMatomo/Admin/views/advanced_settings.php:40
+#: classes/WpMatomo/Admin/views/advanced_settings.php:42
+msgid "No value found"
+msgstr "找不到值"
+
+#: classes/WpMatomo/Admin/views/advanced_settings.php:36
+msgid "Proxy IP headers"
+msgstr "代理IP标头"
+
+#: classes/WpMatomo/Admin/views/advanced_settings.php:32
+msgid "Advanced settings"
+msgstr "高级设置"
+
+#: classes/WpMatomo/Admin/views/geolocation_settings.php:66
+msgid "When configured, your WordPress will send an HTTP request to a MaxMind server to download an approx. 60MB database and store it in your \"wp-content/uploads/matomo\" directory."
+msgstr "配置完成后，您的WordPress将向MaxMind服务器发送HTTP请求，以下载大约一个大概60MB大的数据库，并将其存储在“wp-content/uploads/matomo” 目录中。"
+
+#: classes/WpMatomo/Admin/views/geolocation_settings.php:65
+msgid "Leave the field empty and click on \"Save Changes\" to configure the default DB-IP database."
+msgstr "将字段保留为空，然后单击“保存更改”以配置默认的DB-IP数据库。"
+
+#: classes/WpMatomo/Admin/views/geolocation_settings.php:53
+msgid "MaxMind License Key"
+msgstr "MaxMind许可证密钥"
+
+#: classes/WpMatomo/Admin/views/geolocation_settings.php:43
+msgid "To use MaxMind instead of the default DB-IP geolocation database %1$s get a MaxMind license key%2$s and then configure this key below."
+msgstr "要使用MaxMind代替默认的DB-IP地理位置数据库%1$s，请获取MaxMind许可证密钥%2$s，然后在下面配置此密钥。"
+
+#: classes/WpMatomo/Admin/views/geolocation_settings.php:36
+msgid "On this page you can configure how Matomo detects the locations of your visitors."
+msgstr "在此页面上，您可以配置Matomo如何检测访客的位置。"
+
+#: classes/WpMatomo/Admin/views/geolocation_settings.php:26
+msgid "It looks like the MaxMind license key has a wrong format."
+msgstr "看来MaxMind许可证密钥的格式错误。"
+
+#: classes/WpMatomo/Admin/views/info_newsletter.php:43
+msgid "Subscribe"
+msgstr "订阅"
+
+#: classes/WpMatomo/Admin/views/info_newsletter.php:40
+msgid "Learn more about it on our %1$sPrivacy Policy page%2$s."
+msgstr "在我们的%1$s隐私权政策页面%2$s中了解有关此内容的更多信息。"
+
+#: classes/WpMatomo/Admin/views/geolocation_settings.php:39
+msgid "To detect the location of a visitor, the IP address of a visitor is looked up in a so called geolocation database. This is automatically taken care of for you. However, the freely available database DB-IP we are using is sometimes less accurate than other freely available geolocation databases. This applies to the free and paid version of DB-IP. An alternative geolocation database is called MaxMind which has a free and a paid version as well. Because of GDPR we cannot configure this database automatically for you."
+msgstr "为了检测访问者的位置，在所谓的地理位置数据库中查找访问者的IP地址。这将自动为您处理。但是，我们正在使用的免费提供的数据库DB-IP有时不如其他免费提供的地理位置数据库准确。这适用于DB-IP的免费和付费版本。另一种地理位置数据库称为MaxMind，它同时具有免费和付费版本。由于GDPR的原因，我们无法为您自动配置此数据库。"
+
+#: classes/WpMatomo/Admin/views/info_newsletter.php:39
+msgid "This service uses MadMimi."
+msgstr "该服务使用MadMimi。"
+
+#: classes/WpMatomo/Admin/views/info_newsletter.php:38
+msgid "Subscribe to our newsletter to receive regular information about Matomo, web analytics, and privacy. You can unsubscribe from it any time."
+msgstr "订阅我们的时事通讯，以接收有关Matomo，网络分析和隐私的常规信息。您可以随时取消订阅。"
+
+#: classes/WpMatomo/Admin/views/info_newsletter.php:21
+msgid "Thank you for signing up to our newsletter."
+msgstr "感谢您注册我们的时事通讯。"
+
+#: classes/WpMatomo/Admin/views/access.php:67
+msgid "Want to redirect to the home page when not logged in?"
+msgstr "是否要在未登录时重定向到主页？"
+
+#: classes/WpMatomo/Admin/views/marketplace.php:42
+msgid "Install instructions"
+msgstr "安装说明"
+
+#: classes/WpMatomo/Admin/AdvancedSettings.php:58
+msgid "Advanced"
+msgstr "高级"
+
+#: classes/WpMatomo/views/referral.php:19
+msgid "Rate Matomo"
+msgstr "评价Matomo"
+
+#: classes/WpMatomo/views/referral.php:16
+msgid "Like Matomo? We would really appreciate if you took 1 minute to rate us."
+msgstr "喜欢Matomo吗？如果您能花1分钟为我们评分，我们将不胜感激。"
+
+#: classes/WpMatomo/ScheduledTasks.php:52
+msgid "Monthly"
+msgstr "每月"
+
+#: classes/WpMatomo.php:137
+msgid "Matomo Analytics requires the uploads directory %s to be writable. Please make the directory writable for it to work."
+msgstr "Matomo Analytics要求uploads目录%s是可写的。请使该目录可写以使其起作用。"
+
+#: classes/WpMatomo/Annotations.php:73
+msgid "Published:"
+msgstr "已发布："
+
+#. Author of the plugin
+msgid "Matomo"
+msgstr "Matomo"
+
+#. Description of the plugin
+msgid "The #1 Google Analytics alternative that gives you full control over your data and protects the privacy for your users. Free, secure and open."
+msgstr "排名第一的Google Analytics替代分析软件，可让您完全控制数据并保护用户的隐私。免费，安全和开放。"
+
+#. Author URI of the plugin
+msgid "https://matomo.org"
+msgstr "https://matomo.org"
+
+#: classes/WpMatomo/Admin/PrivacySettings.php:32
+msgid "Privacy & GDPR"
+msgstr "隐私与GDPR"
+
+#: classes/WpMatomo/Admin/ExclusionSettings.php:36
+msgid "Exclusions"
+msgstr "排除"
+
+#: classes/WpMatomo.php:169 classes/WpMatomo/Admin/views/settings.php:25
+#: classes/WpMatomo/Admin/Menu.php:153 classes/WpMatomo/Admin/Menu.php:154
+msgid "Settings"
+msgstr "设置"
+
+#: classes/WpMatomo/Admin/views/info.php:99 classes/WpMatomo/Admin/Menu.php:167
+#: classes/WpMatomo/Admin/Menu.php:168
+msgid "Marketplace"
+msgstr "Marketplace"
+
+#: classes/WpMatomo/Admin/SystemReport.php:109
+msgid "Matomo Archive Error"
+msgstr "Matomo存档错误"
+
+#: classes/WpMatomo/Admin/SystemReport.php:262
+msgid "%s does not exist. "
+msgstr "%s 不存在。 "
+
+#: classes/WpMatomo/Admin/SystemReport.php:268
+msgid "%s is not writable. "
+msgstr "%s不可写。"
+
+#: classes/WpMatomo/Admin/SystemReport.php:272
+msgid "%s exists and is writable."
+msgstr "%s存在并且可写。"
+
+#: classes/WpMatomo/Admin/SystemReport.php:273
+#: classes/WpMatomo/Admin/views/systemreport.php:126
+#: classes/WpMatomo/Admin/views/advanced_settings.php:59
+msgid "Yes"
+msgstr "是"
+
+#: classes/WpMatomo/Admin/SystemReport.php:273
+#: classes/WpMatomo/Admin/views/systemreport.php:128
+msgid "No"
+msgstr "否"
+
+#: classes/WpMatomo/Admin/SystemReport.php:289
+msgid "Matomo Plugin Version"
+msgstr "Matomo插件版本"
+
+#: classes/WpMatomo/Admin/SystemReport.php:341
+msgid "Matomo Version"
+msgstr "Matomo版本"
+
+#: classes/WpMatomo/Admin/SystemReport.php:427
+msgid "Server time"
+msgstr "服务器时间"
+
+#: classes/WpMatomo/Admin/SystemReport.php:358
+msgid "Matomo Blog idSite"
+msgstr "Matomo博客idSite"
+
+#: classes/WpMatomo/Admin/SystemReport.php:458
+msgid "Mandatory checks"
+msgstr "强制检查"
+
+#: classes/WpMatomo/Admin/SystemReport.php:611
+msgid "None"
+msgstr "无"
+
+#: classes/WpMatomo/Admin/SystemReport.php:687
+msgid "Unknown"
+msgstr "未知"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1106
+msgid "Failed to detect granted permissions"
+msgstr "无法检测授予的权限"
+
+#: plugins/WordPress/WordPress.php:96
+msgid "Alternatively, simply go to \"Tracking Settings\" in your WordPress Admin and select \"Tag Manager\" as tracking mode or choose \"Manually\" and paste the above code into the tracking code field."
+msgstr "或者，只需在WordPress管理员中转到“跟踪设置”，然后选择“Tag Manager”作为跟踪模式，或选择“手动”，然后将上面的代码粘贴到跟踪代码字段中即可。"
+
+#: classes/WpMatomo/Report/Renderer.php:87
+msgid "Report %s not found"
+msgstr "找不到报告%s"
+
+#: classes/WpMatomo/Admin/TrackingSettings/Forms.php:43
+msgid "Click to read help"
+msgstr "点击阅读帮助"
+
+#: classes/WpMatomo/Admin/views/info_help.php:41
+msgid "Let our experienced team assist you online on how to best utilise Matomo"
+msgstr "让我们经验丰富的团队在线帮助您如何最好地利用Matomo"
+
+#: classes/WpMatomo/Admin/views/info_help.php:37
+msgid "Learn about commonly used terms to make the most of Matomo Analytics"
+msgstr "了解充分利用Matomo Analytics的常用术语"
+
+#: classes/WpMatomo/Admin/views/info_help.php:36
+msgid "Glossary"
+msgstr "词汇表"
+
+#: classes/WpMatomo/Admin/views/info_help.php:32
+msgid "Forums"
+msgstr "论坛"
+
+#: classes/WpMatomo/Admin/views/info_help.php:26
+#: classes/WpMatomo/Admin/views/info_help.php:29
+msgid "Get answers to frequently asked questions"
+msgstr "获取常见问题的答案"
+
+#: classes/WpMatomo/Admin/views/info_help.php:23
+msgid "Learn how to configure Matomo and how to effectively analyse your data"
+msgstr "了解如何配置Matomo以及如何有效分析数据"
+
+#: classes/WpMatomo/Admin/views/info_help.php:22
+msgid "User guides"
+msgstr "用户指南"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:237
+msgid "You may want to disable %1$s in your %2$s and set up an actual cronjob and %3$scheck out our recommended server sizing%4$s."
+msgstr "您可能要禁用%2$s中的%1$s并设置实际的cronjob和%3$s，请查看我们建议的服务器大小调整%4$s。"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:229
+msgid "You may also want to enable %1$s."
+msgstr "您可能还要启用%1$s。"
+
+#: classes/WpMatomo/Admin/views/info.php:101
+msgid "Credits"
+msgstr "鸣谢"
+
+#: classes/WpMatomo/Admin/views/info.php:97
+msgid "Developers"
+msgstr "开发者"
+
+#: classes/WpMatomo/Admin/views/info.php:95
+msgid "Blog"
+msgstr "博客"
+
+#: classes/WpMatomo/Admin/views/tracking.php:77
+msgid "Header"
+msgstr "顶部"
+
+#: classes/WpMatomo/Admin/views/access.php:86
+msgid "Capabilities"
+msgstr "机能"
+
+#: classes/WpMatomo/Admin/views/access.php:70
+msgid "Roles"
+msgstr "角色"
+
+#: classes/WpMatomo/Admin/views/access.php:64
+msgid "Admin"
+msgstr "管理员"
+
+#: classes/WpMatomo/Admin/views/get_started.php:62
+msgid "Done"
+msgstr "完成"
+
+#: classes/WpMatomo/Admin/TrackingSettings.php:171
+#: classes/WpMatomo/Admin/views/tracking.php:51
+msgid "Enter manually"
+msgstr "手动输入"
+
+#: classes/WpMatomo/Admin/TrackingSettings.php:170
+#: classes/WpMatomo/Admin/views/tracking.php:51
+msgid "Default tracking"
+msgstr "默认跟踪"
+
+#: classes/WpMatomo/Admin/TrackingSettings.php:169
+#: classes/WpMatomo/Admin/views/tracking.php:51
+#: classes/WpMatomo/Admin/views/tracking.php:109
+#: classes/WpMatomo/Admin/views/tracking.php:151
+msgid "Disabled"
+msgstr "已禁用"
+
+#: classes/WpMatomo/Admin/TrackingSettings.php:42
+msgid "Tracking"
+msgstr "跟踪"
+
+#: classes/WpMatomo/Admin/AccessSettings.php:41
+msgid "Access"
+msgstr "取数"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1121
+msgid "OK"
+msgstr "确定"
+
+#: classes/WpMatomo/Site/Sync.php:130
+#: classes/WpMatomo/Admin/views/advanced_settings.php:40
+#: classes/WpMatomo/Admin/views/tracking.php:193
+#: classes/WpMatomo/Admin/views/tracking.php:206
+msgid "Default"
+msgstr "默认"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:227
+msgid "If you experience any issue in Matomo, it is always a good idea to first check your webserver logs (if possible) for any errors."
+msgstr "如果您在Matomo中遇到任何问题，总是最好先检查您的网络服务器日志（如果可能）是否有任何错误。"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:209
+msgid "Sync all sites (blogs)"
+msgstr "同步所有站点（博客）"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:197
+#: classes/WpMatomo/Admin/views/systemreport.php:207
+msgid "Sites / blogs are synced automatically. If for some reason Matomo is not showing up for a specific blog, then triggering a manual sync may help to fix this issue immediately or it may show which error prevents the automatic syncing."
+msgstr "站点/博客会自动同步。如果由于某些原因Matomo没有在特定博客中出现，则触发手动同步可能有助于立即解决此问题，或者可能显示哪个错误阻止了自动同步。"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:194
+msgid "Sync users"
+msgstr "同步用户"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:193
+#: classes/WpMatomo/Admin/views/systemreport.php:203
+msgid "Users are synced automatically. If for some reason a user cannot access Matomo pages even though the user has the permission, then triggering a manual sync may help to fix this issue immediately or it may show which error prevents the automatic syncing."
+msgstr "用户自动同步。如果由于某种原因即使用户有权限，用户也无法访问Matomo页面，则触发手动同步可能有助于立即解决此问题，或者它可能显示哪个错误阻止了自动同步。"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:188
+msgid "Install/Update Geo-IP DB"
+msgstr "安装/更新Geo-IP数据库"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:187
+msgid "Updates the geolocation database which is used to detect the location (city/region/country) of visitors. This task is performed automatically. If the geolocation DB is not loaded or updated, you may need to trigger it manually to find the error which is causing it."
+msgstr "更新用于检测访问者的位置（城市/区域/国家/地区）的地理位置数据库。此任务是自动执行的。如果未加载或更新地理位置数据库，则可能需要手动触发它以查找引起它的错误。"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:180
+msgid "Removes all stored Matomo logs that are shown in the system report"
+msgstr "删除系统报告中显示的所有存储的Matomo日志"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:175
+msgid "Clear Matomo cache"
+msgstr "清除Matomo缓存"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:174
+msgid "Will reset / empty the Matomo cache which can be helpful if something is not working as expected for example after an update."
+msgstr "将重置/清空Matomo缓存，这在某些情况下无法正常工作（例如在更新后）时会很有帮助。"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:169
+msgid "If reports show no data even though they should, you may try to see if report generation works when manually triggering the report generation."
+msgstr "如果报表即使应有的话也没有显示数据，则您可以尝试在手动触发报表生成时查看报表生成是否起作用。"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:162
+#: classes/WpMatomo/Admin/views/info_help.php:45
+msgid "Troubleshooting"
+msgstr "故障排除"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:75
+msgid "Copy system report"
+msgstr "复制系统报告"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:71
+msgid "Copy the below info in case our support team asks you for this information:"
+msgstr "如果我们的支持团队要求您提供以下信息，请复制以下信息："
+
+#: classes/WpMatomo/Admin/views/summary.php:47
+msgid "Reports for today are only refreshed approximately every hour through the WordPress cronjob."
+msgstr "今天的报告仅通过WordPress cronjob每小时大约刷新一次。"
+
+#: classes/WpMatomo/Admin/views/summary.php:40
+msgid "Matomo Tracking is not enabled."
+msgstr "未启用Matomo跟踪。"
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:91
+msgid "Example"
+msgstr "例子"
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:71
+msgid "GDPR tools"
+msgstr "GDPR工具"
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:65
+msgid "Asking for consent"
+msgstr "征求同意"
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:62
+msgid "see below for the shortcode"
+msgstr "请参阅下面的短代码"
+
+#: classes/WpMatomo/Admin/views/marketplace.php:34
+msgid "Discover new functionality for your Matomo"
+msgstr "探索Matomo的新功能"
+
+#: classes/WpMatomo/Admin/views/marketplace.php:28
+msgid "Only super users can see this page"
+msgstr "只有超级用户才能看到此页面"
+
+#: classes/WpMatomo/Admin/views/summary.php:83
+msgid "You can embed this report on any page using the shortcode:"
+msgstr "您可以使用短代码将此报告嵌入任何页面："
+
+#: classes/WpMatomo/Admin/views/summary.php:89
+msgid "Click to view the report in detail"
+msgstr "点击查看详细报告"
+
+#: classes/WpMatomo/Admin/SystemReport.php:828
+msgid "It looks like you are maybe using a custom WordPress content directory. The Matomo reporting/admin pages might not work. You may be able to workaround this."
+msgstr "看来您可能正在使用自定义WordPress content目录。 Matomo报告/管理页面可能无法正常工作。您也许可以解决此问题。"
+
+#: classes/WpMatomo/Admin/views/info_help.php:46
+msgid "Click here if you are having Trouble with Matomo"
+msgstr "如果您遇到Matomo的问题，请单击此处"
+
+#: classes/WpMatomo/Admin/views/info_help.php:40
+msgid "Support Plans"
+msgstr "支持计划"
+
+#: classes/WpMatomo/Admin/views/info_help.php:33
+msgid "Get help directly from the community of Matomo users"
+msgstr "直接从Matomo用户社区获得帮助"
+
+#: classes/WpMatomo/Admin/views/info_help.php:14
+msgid "How can we help?"
+msgstr "我们能帮您什么吗？"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:233
+msgid "Having performance issues?"
+msgstr "有性能问题吗？"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:230
+msgid "To debug issues that happen in the background, for example report generation during a cronjob, you might also want to enable %1$s."
+msgstr "要调试在后台发生的问题，例如在cronjob期间生成报告，您可能还需要启用%1$s。"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:226
+msgid "Before you create an issue"
+msgstr "在创建问题报告之前"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:223
+msgid "View all FAQs"
+msgstr "查看所有常见问题解答"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:222
+msgid "How do I manually delete or reset all Matomo for WordPress data?"
+msgstr "如何手动删除或重置所有Matomo的WordPress数据？"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:221
+msgid "I have an issue with the plugin, how do I troubleshoot and enable debug mode?"
+msgstr "插件出了问题，如何解决并启用调试模式？"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:220
+msgid "I cannot open the Matomo Reporting, Admin, or Tag Manager page, how do I troubleshoot it?"
+msgstr "我无法打开Matomo报告，管理员或Tag Manager页面，该如何解决？"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:219
+msgid "Matomo is not showing any statistics / reports, how do I fix it?"
+msgstr "Matomo没有显示任何统计信息/报告，我该如何解决？"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:217
+msgid "Popular Troubleshooting FAQs"
+msgstr "常见故障排除常见问题解答"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:204
+msgid "Sync all users across sites / blogs"
+msgstr "在站点/博客之间同步所有用户"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:198
+msgid "Sync site (blog)"
+msgstr "同步站点（博客）"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:181
+msgid "Clear system report logs"
+msgstr "清除系统报告日志"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:170
+msgid "Archive reports"
+msgstr "存档报告"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:56
+msgid "Only you are seeing this page as you are the super admin"
+msgstr "您是超级管理员，只有您看到此页面"
+
+#: classes/WpMatomo/Admin/views/systemreport.php:49
+msgid "There are some issues with your system. Matomo will run, but you might experience some minor problems. See below for more information."
+msgstr "您的系统存在一些问题。 Matomo将运行，但是您可能会遇到一些小问题。请参阅下面的详细信息。"
+
+#: classes/WpMatomo/Admin/views/marketplace.php:40
+msgid "Download Matomo Marketplace for WordPress"
+msgstr "下载适用于WordPress的Matomo Marketplace"
+
+#: classes/WpMatomo/Admin/views/summary.php:136
+msgid "Only users with view access will be able to view the content of the report."
+msgstr "只有具有查看权限的用户才能查看报告的内容。"
+
+#: classes/WpMatomo/Admin/views/summary.php:135
+msgid "Did you know? You can embed any report into any page or post using a shortcode. Simply hover the title to find the correct shortcode."
+msgstr "你知道吗？您可以使用短代码将任何报告嵌入任何页面或发布。只需将标题悬停以找到正确的短代码。"
+
+#: classes/WpMatomo/Admin/views/summary.php:54
+msgid "Change date:"
+msgstr "改变日期："
+
+#: classes/WpMatomo/Admin/views/summary.php:52
+msgid "View full reporting"
+msgstr "查看完整报告"
+
+#: classes/WpMatomo/Admin/views/summary.php:50
+msgid "Looking for all reports and advanced features like segmentation, real time reports, and more?"
+msgstr "寻找所有报告和高级功能（如细分，实时报告等）？"
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:89
+msgid "By default the language is detected automatically based on the user's browser"
+msgstr "默认情况下，会根据用户的浏览器自动检测语言"
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:86
+msgid "You can use these short code options:"
+msgstr "您可以使用以下短代码选项："
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:81
+msgid "Use the short code %1$s to embed the opt out iframe into your website."
+msgstr "使用短代码%1$s将退出iframe嵌入您的站点。"
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:76
+msgid "Let users opt-out of tracking"
+msgstr "让用户退出跟踪"
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:68
+msgid "GDPR overview"
+msgstr "GDPR概述"
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:61
+msgid "Matomo has an opt-out mechanism which lets users opt-out of web analytics tracking"
+msgstr "Matomo具有选择退出机制，可让用户选择退出网络分析跟踪"
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:58
+msgid "Configure data retention"
+msgstr "配置数据保留"
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:55
+msgid "Anonymise data and IP addresses"
+msgstr "匿名化数据和IP地址"
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:51
+msgid "Privacy is a fundamental right so by using Matomo you can rest assured you have 100% control over that data and can protect your user's privacy as it's on your own server."
+msgstr "隐私是一项基本权利，因此通过使用Matomo，您可以100％地控制该数据，并且可以保护用户的隐私，因为它位于您自己的服务器上。"
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:50
+msgid "Although Matomo Analytics is a web analytics software that has a purpose to track user activity on your website, we take privacy very seriously."
+msgstr "尽管Matomo Analytics是一款网络分析软件，旨在跟踪您站点上的用户活动，但我们非常重视隐私。"
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:48
+msgid "Ways Matomo protects the privacy of your users and customers"
+msgstr "Matomo如何保护您的用户和客户的隐私"
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:25
+msgid "One of Matomo's guiding principles: respecting privacy"
+msgstr "Matomo的指导原则之一：尊重隐私"
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:22
+msgid "Matomo ensures the privacy of your users and analytics data! YOU keep control of your data."
+msgstr "Matomo确保您的用户和分析数据的私密性！您可以控制自己的数据。"
+
+#: classes/WpMatomo/Admin/views/info.php:74
+#: classes/WpMatomo/Admin/views/info_newsletter.php:32
+msgid "Newsletter"
+msgstr "时事通讯"
+
+#: classes/WpMatomo/Admin/views/info.php:63
+msgid "High traffic websites"
+msgstr "高流量站点"
+
+#: classes/WpMatomo/Admin/views/info.php:27
+msgid "Support the project"
+msgstr "支持项目"
+
+#: classes/WpMatomo/Admin/views/tracking.php:179
+msgid "Force Matomo to use a specific protocol"
+msgstr "强制Matomo使用特定协议"
+
+#: classes/WpMatomo/Admin/views/tracking.php:171
+msgid "Set classes to be treated as outlinks"
+msgstr "将classes设置为出站链接"
+
+#: classes/WpMatomo/Admin/views/tracking.php:169
+msgid "Set classes to be treated as downloads"
+msgstr "将classes设置为下载链接"
+
+#: classes/WpMatomo/Admin/views/tracking.php:167
+msgid "Define all file types for download tracking"
+msgstr "定义所有文件类型以进行下载链接跟踪"
+
+#: classes/WpMatomo/Admin/views/tracking.php:163
+msgid "Add data-cfasync=false"
+msgstr "添加data-cfasync = false"
+
+#: classes/WpMatomo/Admin/views/tracking.php:155
+msgid "Display Name (Not Recommended!)"
+msgstr "显示名称（不推荐！）"
+
+#: classes/WpMatomo/Admin/views/tracking.php:154
+msgid "Username"
+msgstr "用户名"
+
+#: classes/WpMatomo/Admin/views/tracking.php:153
+msgid "Email Address"
+msgstr "电子邮件地址"
+
+#: classes/WpMatomo/Admin/views/tracking.php:152
+msgid "WP User ID"
+msgstr "WP用户ID"
+
+#: classes/WpMatomo/Admin/views/tracking.php:149
+msgid "User ID Tracking"
+msgstr "用户 ID 跟踪"
+
+#: classes/WpMatomo/Admin/views/tracking.php:145
+msgid "Enable a heartbeat timer to get more accurate visit lengths by sending periodical HTTP ping requests as long as the site is opened. Enter the time between the pings in seconds (Matomo default: 15) to enable or 0 to disable this feature. <strong>Note:</strong> This will cause a lot of additional HTTP requests on your site."
+msgstr "只要站点打开，就通过发送定期的HTTP ping请求来启用心跳计时器以获取更准确的访问时间。输入两次ping之间的时间（以秒为单位）（Matomo默认值：15）以启用此功能，或输入0以禁用此功能。 <strong>注意：</strong>这会在您的站点上引起很多其他HTTP请求。"
+
+#: classes/WpMatomo/Admin/views/tracking.php:145
+msgid "Enable heartbeat timer"
+msgstr "启用心跳计时器"
+
+#: classes/WpMatomo/Admin/views/tracking.php:143
+msgid "Keyword: post name."
+msgstr "关键字：文章名。"
+
+#: classes/WpMatomo/Admin/views/tracking.php:141
+msgid "This will add Matomo campaign parameters to the RSS feed links."
+msgstr "这会将Matomo广告系列参数添加到RSS Feed链接。"
+
+#: classes/WpMatomo/Admin/views/tracking.php:141
+msgid "Track RSS feed links as campaign"
+msgstr "将RSS feed链接作为广告系列进行跟踪"
+
+#: classes/WpMatomo/Admin/views/tracking.php:139
+msgid "Enable to track posts in feeds via tracking pixel."
+msgstr "启用通过跟踪像素跟踪供稿中的文章。"
+
+#: classes/WpMatomo/Admin/views/tracking.php:139
+msgid "Track RSS feeds"
+msgstr "跟踪RSS源"
+
+#: classes/WpMatomo/Admin/views/tracking.php:135
+msgid "Enable cross domain linking"
+msgstr "启用跨域链接"
+
+#: classes/WpMatomo/Admin/views/tracking.php:133
+msgid "Do not count subdomains as outlink"
+msgstr "不要将子域计为出站链接"
+
+#: classes/WpMatomo/Admin/views/tracking.php:131
+msgid "Track subdomains in the same website"
+msgstr "跟踪同一站点中的子域"
+
+#: classes/WpMatomo/Admin/views/tracking.php:129
+msgid "Track admin pages"
+msgstr "跟踪管理页面"
+
+#: classes/WpMatomo/Admin/views/tracking.php:125
+msgid "Session timeout (seconds)"
+msgstr "会话超时（秒）"
+
+#: classes/WpMatomo/Admin/views/tracking.php:123
+msgid "Visitor timeout (seconds)"
+msgstr "访客超时（秒）"
+
+#: classes/WpMatomo/Admin/views/tracking.php:121
+msgid "Limit cookie lifetime"
+msgstr "限制Cookie寿命"
+
+#: classes/WpMatomo/Admin/views/tracking.php:89
+msgid "Disable all tracking cookies for a visitor."
+msgstr "禁用访客的所有跟踪cookie。"
+
+#: classes/WpMatomo/Admin/views/tracking.php:89
+msgid "Disable cookies"
+msgstr "禁用cookie"
+
+#: classes/WpMatomo/Admin/views/tracking.php:119
+msgid "Add file extensions for download tracking, divided by a vertical bar (&#124;)."
+msgstr "添加文件扩展名以进行下载跟踪，并以竖线（&#124;）分隔。"
+
+#: classes/WpMatomo/Admin/views/tracking.php:119
+msgid "Add new file types for download tracking"
+msgstr "添加新文件类型以进行下载跟踪"
+
+#: classes/WpMatomo/Admin/views/tracking.php:98
+msgid "Add annotation on new post of type"
+msgstr "在新类型的文章上添加注释"
+
+#: classes/WpMatomo/Admin/views/tracking.php:95
+msgid "Track 404"
+msgstr "跟踪404页面"
+
+#: classes/WpMatomo/Admin/views/tracking.php:93
+msgid "Use Matomo's advanced Site Search Analytics feature."
+msgstr "使用Matomo的高级Site Search Analytics功能。"
+
+#: classes/WpMatomo/Admin/views/tracking.php:93
+msgid "Track search"
+msgstr "追踪搜寻"
+
+#: classes/WpMatomo/Admin/views/tracking.php:91
+msgid "Matom can track Ecommerce orders, abandoned carts and product views for WooCommerce, Easy Digital Analytics, MemberPress, and more. Disabling this feature will also remove Ecommerce reports from the Matomo UI."
+msgstr "Matom可以跟踪WooCommerce，Easy Digital Analytics，MemberPress等的电子商务订单，废弃的购物车和产品视图。禁用此功能还将从Matomo UI中删除电子商务报告。"
+
+#: classes/WpMatomo/Admin/views/tracking.php:91
+msgid "Enable ecommerce"
+msgstr "启用电子商务"
+
+#: classes/WpMatomo/Admin/views/tracking.php:113
+msgid "Content tracking allows you to track interaction with the content of a web page or application."
+msgstr "内容跟踪使您可以跟踪与网页或应用程序内容的交互。"
+
+#: classes/WpMatomo/Admin/views/tracking.php:111
+msgid "Track only visible content blocks"
+msgstr "仅跟踪可见的内容块"
+
+#: classes/WpMatomo/Admin/views/tracking.php:110
+msgid "Track all content blocks"
+msgstr "跟踪所有内容块"
+
+#: classes/WpMatomo/Admin/views/tracking.php:107
+msgid "Enable content tracking"
+msgstr "启用内容跟踪"
+
+#: classes/WpMatomo/Admin/views/tracking.php:209
+msgid "By default the JS tracking code will be loaded from \""
+msgstr "默认情况下，JS跟踪代码将从“"
+
+#: classes/WpMatomo/Admin/views/tracking.php:207
+msgid "Through WordPress Rest API (slower)"
+msgstr "通过WordPress Rest API（速度较慢）"
+
+#: classes/WpMatomo/Admin/views/tracking.php:204
+msgid "Endpoint for JavaScript tracker"
+msgstr "JavaScript跟踪器的端点"
+
+#: classes/WpMatomo/Admin/views/tracking.php:194
+msgid "Through WordPress Rest API"
+msgstr "通过WordPress Rest API"
+
+#: classes/WpMatomo/Admin/views/tracking.php:191
+msgid "Endpoint for HTTP Tracking API"
+msgstr "HTTP跟踪API的端点"
+
+#: classes/WpMatomo/Admin/views/tracking.php:175
+msgid "Adds the &lt;noscript&gt; code to your footer."
+msgstr "添加&lt;noscript&gt;;代码添加到页脚。"
+
+#: classes/WpMatomo/Admin/views/tracking.php:175
+msgid "Add &lt;noscript&gt;"
+msgstr "添加&lt;noscript&gt;"
+
+#: classes/WpMatomo/Admin/views/tracking.php:173
+msgid "Noscript code"
+msgstr "Noscript代码"
+
+#: classes/WpMatomo/Admin/views/tracking.php:79
+msgid "Choose whether the JavaScript code is added to the footer or the header."
+msgstr "选择将JavaScript代码添加到页脚还是页眉。"
+
+#: classes/WpMatomo/Admin/views/tracking.php:76
+msgid "Footer"
+msgstr "页脚"
+
+#: classes/WpMatomo/Admin/views/tracking.php:74
+msgid "JavaScript code position"
+msgstr "JavaScript代码位置"
+
+#: classes/WpMatomo/Admin/views/tracking.php:70
+msgid "Tracking code"
+msgstr "跟踪代码"
+
+#: classes/WpMatomo/Admin/views/tracking.php:61
+msgid "Add these Tag Manager containers"
+msgstr "添加这些Tag Manager容器"
+
+#: classes/WpMatomo/Admin/views/tracking.php:56
+msgid "You can use these variables: %1$s. %2$sLearn more%3$s"
+msgstr "您可以使用以下变量：%1$s。 %2$s了解更多%3$s"
+
+#: classes/WpMatomo/Admin/views/tracking.php:52
+msgid "Add tracking code"
+msgstr "添加跟踪代码"
+
+#: classes/WpMatomo/Admin/views/tracking.php:51
+msgid "Use the placeholder {ID} to add the Matomo site ID."
+msgstr "使用占位符{ID}添加Matomo站点ID。"
+
+#: classes/WpMatomo/Admin/views/tracking.php:51
+msgid "Enter your own tracking code manually. You can choose one of the prior options, pre-configure your tracking code and switch to manually editing at last."
+msgstr "手动输入您自己的跟踪代码。您可以选择以下任一选项，预先配置跟踪代码，最后切换为手动编辑。"
+
+#: classes/WpMatomo/Admin/views/tracking.php:51
+msgid "matomo will use Matomo's standard tracking code."
+msgstr "matomo将使用Matomo的标准跟踪代码。"
+
+#: classes/WpMatomo/Admin/views/tracking.php:51
+msgid "matomo will not add the tracking code. Use this, if you want to add the tracking code to your template files or you use another plugin to add the tracking code."
+msgstr "matomo将不会添加跟踪代码。如果要将跟踪代码添加到模板文件中，或者使用另一个插件添加跟踪代码，请使用此选项。"
+
+#: classes/WpMatomo/Admin/views/tracking.php:51
+msgid "You can choose between four tracking code modes:"
+msgstr "您可以在四种跟踪代码模式之间进行选择："
+
+#: classes/WpMatomo/Admin/views/tracking.php:39
+msgid "Configure the tracking to your liking."
+msgstr "根据您的喜好配置跟踪。"
+
+#: classes/WpMatomo/Admin/views/access.php:66
+msgid "Super User"
+msgstr "超级用户"
+
+#: classes/WpMatomo/Admin/views/access.php:63
+msgid "Write"
+msgstr "写入"
+
+#: classes/WpMatomo/Admin/views/access.php:61
+msgid "View"
+msgstr "查看"
+
+#: classes/WpMatomo/Admin/views/access.php:60
+msgid "Learn about the differences between these Matomo roles:"
+msgstr "了解这些Matomo角色之间的区别："
+
+#: classes/WpMatomo/Admin/views/access.php:30
+msgid "Matomo Role"
+msgstr "Matomo角色"
+
+#: classes/WpMatomo/Admin/views/access.php:29
+msgid "WordPress Role"
+msgstr "WordPress 角色"
+
+#: classes/WpMatomo/Admin/views/access.php:21
+msgid "Manage which roles can view and manage your reporting data."
+msgstr "管理哪些角色可以查看和管理您的报告数据。"
+
+#: classes/WpMatomo/Admin/views/settings.php:48
+msgid "Matomo Admin"
+msgstr "Matomo管理"
+
+#: classes/WpMatomo/Admin/views/get_started.php:67
+msgid "Don't show this page anymore"
+msgstr "不再显示此页面"
+
+#: classes/WpMatomo/Admin/views/get_started.php:59
+msgid "You may also need to mention that you are using Matomo Analytics on your website."
+msgstr "您可能还需要提及您正在站点上使用Matomo Analytics。"
+
+#: classes/WpMatomo/Admin/views/get_started.php:57
+msgid "Give your users the chance to opt-out of tracking by adding the shortcode %1$s to your privacy page. You can %2$stweak the opt-out to your liking - see the Privacy Settings%3$s."
+msgstr "通过将短代码%1$s添加到您的隐私页面，使您的用户有机会选择退出跟踪。您可以根据自己的喜好%2$stopt-out退出-请参阅“隐私设置”%3$s。"
+
+#: classes/WpMatomo/Admin/views/get_started.php:55
+msgid "Update your privacy page"
+msgstr "更新您的隐私页面"
+
+#: classes/WpMatomo/Admin/views/get_started.php:51
+msgid "Enable tracking now"
+msgstr "立即启用跟踪"
+
+#: classes/WpMatomo/Admin/views/get_started.php:48
+msgid "Tracking is currently disabled"
+msgstr "追踪功能目前已停用"
+
+#: classes/WpMatomo/Admin/views/get_started.php:45
+msgid "Enable tracking"
+msgstr "启用追踪"
+
+#: classes/WpMatomo/Admin/views/get_started.php:42
+msgid "Click here to configure your tracking code."
+msgstr "点击此处配置您的跟踪代码。"
+
+#: classes/WpMatomo/Admin/views/get_started.php:41
+msgid "Tracking is enabled"
+msgstr "启用跟踪"
+
+#: classes/WpMatomo/Admin/views/get_started.php:32
+msgid "Start getting a full picture of your visitors"
+msgstr "开始获得您的访客的全貌"
+
+#: classes/WpMatomo/Admin/views/advanced_settings.php:69
+#: classes/WpMatomo/Admin/views/tracking.php:165
+#: classes/WpMatomo/Admin/views/access.php:48
+#: classes/WpMatomo/Admin/views/exclusion_settings.php:145
+#: classes/WpMatomo/Admin/views/geolocation_settings.php:73
+msgid "Save Changes"
+msgstr "保存变化"
+
+#: classes/WpMatomo/Admin/views/exclusion_settings.php:54
+msgid "Tracking filter"
+msgstr "追踪过滤器"
+
+#: classes/WpMatomo/Admin/views/exclusion_settings.php:49
+msgid "Configure exclusions."
+msgstr "配置排除项。"
+
+#: classes/WpMatomo/Admin/views/info_bug_report.php:14
+msgid "Do you have a bug to report or a feature request?"
+msgstr "您是否有要报告的错误或功能请求？"
+
+#: classes/WpMatomo/Admin/views/info_shared.php:38
+msgid "Easy installation and configuration"
+msgstr "易于安装和配置"
+
+#: classes/WpMatomo/Admin/views/info_shared.php:37
+msgid "No data limits or sampling whatsoever"
+msgstr "没有数据限制或采样"
+
+#: classes/WpMatomo/Admin/views/info_shared.php:36
+msgid "Superb user privacy protection"
+msgstr "出色的用户隐私保护"
+
+#: classes/WpMatomo/Admin/views/info_shared.php:35
+msgid "Powerful web analytics for WordPress"
+msgstr "WordPress的强大网络分析"
+
+#: classes/WpMatomo/Admin/views/info_shared.php:34
+msgid "100% data ownership, no one else can see your data"
+msgstr "100％的数据所有权，没有其他人可以看到您的数据"
+
+#: classes/WpMatomo/Admin/views/info_multisite.php:53
+msgid "Matomo blogs"
+msgstr "Matomo博客"
+
+#: classes/WpMatomo/Admin/views/info_multisite.php:50
+msgid "Sign up for a free Matomo Cloud trial"
+msgstr "注册免费的Matomo Cloud试用版"
+
+#: classes/WpMatomo/Admin/views/info_multisite.php:48
+msgid "Don't want all the hassle of maintaining a Matomo?"
+msgstr "不想维护Matomo的所有麻烦？"
+
+#: classes/WpMatomo/Admin/views/info_multisite.php:30
+msgid "Managing many sites?"
+msgstr "管理多个站点？"
+
+#: classes/WpMatomo/Admin/views/info_multisite.php:27
+msgid "Matomo is not network enabled"
+msgstr "Matomo未启用网络"
+
+#: classes/WpMatomo/Admin/views/info_multisite.php:21
+msgid "Matomo is network enabled"
+msgstr "Matomo已启用网络"
+
+#: classes/WpMatomo/Admin/views/info_multisite.php:20
+msgid "You are seeing this page as you are viewing the network admin. Matomo differentiates between two different multi site modes:"
+msgstr "您在查看网络管理员时会看到此页面。 Matomo区分两种不同的多站点模式："
+
+#: classes/WpMatomo/Admin/views/info_multisite.php:18
+msgid "Matomo Analytics in Multi Site mode"
+msgstr "多站点模式下的Matomo Analytics"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1276
+msgid "Not compatible plugins"
+msgstr "不兼容的插件"
+
+#: classes/WpMatomo/Admin/SystemReport.php:828
+#: classes/WpMatomo/Admin/SystemReport.php:1115
+#: classes/WpMatomo/Admin/views/marketplace.php:122
+#: classes/WpMatomo/Admin/views/marketplace.php:124
+#: classes/WpMatomo/Admin/views/access.php:67
+msgid "Learn more"
+msgstr "了解更多"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1115
+msgid "Please check if any of these MySQL permission (grants) are missing and add them if needed."
+msgstr "请检查是否缺少这些MySQL权限（授予），并在需要时添加它们。"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1115
+msgid "Missing permissions"
+msgstr "缺少权限"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1114
+msgid "Error"
+msgstr "错误"
+
+#: classes/WpMatomo/Admin/SystemReport.php:1107
+msgid "Please check your MySQL user has these permissions (grants):"
+msgstr "请检查您的MySQL用户是否具有以下权限（授予）："
+
+#: classes/WpMatomo/Admin/SystemReport.php:1105
+#: classes/WpMatomo/Admin/SystemReport.php:1113
+#: classes/WpMatomo/Admin/SystemReport.php:1120
+msgid "Required permissions"
+msgstr "所需权限"
+
+#: classes/WpMatomo/Admin/SystemReport.php:464
+msgid "Optional checks"
+msgstr "可选检查"
+
+#: classes/WpMatomo/Admin/SystemReport.php:347
+msgid "Matomo System Check"
+msgstr "Matomo系统检查"
+
+#: classes/WpMatomo/Admin/SystemReport.php:310
+msgid "Tmp directory writable"
+msgstr "暂时目录可写"
+
+#: classes/WpMatomo/Admin/SystemReport.php:302
+msgid "Plugin directories"
+msgstr "插件目录"
+
+#: classes/WpMatomo/Admin/SystemReport.php:265
+msgid "%s is not readable. "
+msgstr "%s不可读。"
+
+#: classes/WpMatomo/Admin/views/info_shared.php:14
+#: classes/WpMatomo/Admin/Menu.php:194 classes/WpMatomo/Admin/Menu.php:195
+msgid "About"
+msgstr "关于"
+
+#: classes/WpMatomo/Admin/SafeModeMenu.php:46
+#: classes/WpMatomo/Admin/SafeModeMenu.php:47
+msgid "System Report"
+msgstr "系统报告"
+
+#: classes/WpMatomo/Admin/TrackingSettings.php:175
+#: classes/WpMatomo/Admin/views/tracking.php:51
+#: classes/WpMatomo/Admin/Menu.php:134 classes/WpMatomo/Admin/Menu.php:135
+#: classes/WpMatomo/Admin/Menu.php:210
+msgid "Tag Manager"
+msgstr "Tag Manager"
+
+#: classes/WpMatomo/Admin/Menu.php:121 classes/WpMatomo/Admin/Menu.php:122
+#: classes/WpMatomo/Admin/Menu.php:209
+msgid "Reporting"
+msgstr "报表"
+
+#: classes/WpMatomo/Admin/views/summary.php:44
+#: classes/WpMatomo/Admin/Menu.php:108 classes/WpMatomo/Admin/Menu.php:109
+msgid "Summary"
+msgstr "摘要"
+
+#: classes/WpMatomo/Admin/Menu.php:96 classes/WpMatomo/Admin/Menu.php:97
+msgid "Multi Site"
+msgstr "多站点"
+
+#: classes/WpMatomo.php:167 classes/WpMatomo/Admin/Menu.php:81
+#: classes/WpMatomo/Admin/Menu.php:82
+msgid "Get Started"
+msgstr "开始使用"
+
+#: plugins/WordPress/Menu.php:60
+msgid "Go back to WordPress Admin Dashboard"
+msgstr "返回WordPress管理仪表盘"
+
+#: classes/WpMatomo/Report/Renderer.php:56
+msgid "Sorry, you are not allowed to view this report."
+msgstr "抱歉，您不能查看此报告。"
+
+#: classes/WpMatomo/Admin/views/tracking.php:229
+msgid "NoScript tracking code"
+msgstr "NoScript跟踪代码"
+
+#: classes/WpMatomo/Admin/views/tracking.php:224
+msgid "JavaScript tracking code"
+msgstr "JavaScript跟踪代码"
+
+#: classes/WpMatomo/Admin/views/tracking.php:182
+msgid "https (SSL)"
+msgstr "https (SSL)"
+
+#: classes/WpMatomo/Admin/views/tracking.php:181
+msgid "Disabled (default)"
+msgstr "禁用（默认）"
+
+#: classes/WpMatomo/PrivacyBadge.php:39
+msgid "Your privacy protected! This website uses Matomo."
+msgstr "您的隐私受到保护！本站点使用Matomo。"
+
+#: classes/WpMatomo/Admin/views/marketplace.php:38
+msgid "Easily install over 100 free plugins & %1$spremium features%2$s for Matomo with just a click"
+msgstr "只需单击一下，即可轻松为Matomo安装100多个免费插件和%1$spremium功能%2$s"
+
+#: classes/WpMatomo/Admin/views/tracking.php:226
+msgid "Wanting to embed the tracking code manually into your site or using a different plugin? No problem! Simply copy/paste below tracking code. Want to adjust it? %1$sCheck out our developer documentation.%2$s"
+msgstr "想要将跟踪代码手动嵌入到您的网站或使用其他插件？没问题！只需复制/粘贴以下跟踪代码即可。要调整吗？ %1$s查看我们的开发人员文档。%2$s"
+
+#: classes/WpMatomo/Admin/views/update_notice_clear_cache.php:14
+msgid "Settings have been updated successfully. In case you are using a caching plugin like WP-Rocket, W3 Total Cache, WP Super Cache, ... make sure to invalidate the cache."
+msgstr "设置已成功更新。如果您使用的是WP-Rocket，W3 Total Cache，WP Super Cache等缓存插件，请确保使缓存无效。"
+
+#: classes/WpMatomo/Admin/views/summary.php:137
+msgid "Note: Embedding report data can be tricky if you are using caching plugins that cache the entire HTML of your page or post. In case you are using such a plugin, we recommend you disable the caching for these pages."
+msgstr "注意：如果使用的缓存插件可以缓存页面或文章的整个HTML，则嵌入报表数据可能会很棘手。如果您使用的是这样的插件，我们建议您禁用这些页面的缓存。"
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:32
+msgid "The source code of the software is open-source so hundreds of people have reviewed it to ensure it is %1$ssecure%2$s and keeps your data private."
+msgstr "该软件的源代码是开放源代码，因此数百人对其进行了审核，以确保该软件为%1$ssecure%2$s，并使您的数据保持私密性。"
+
+#: classes/WpMatomo/Admin/views/privacy_gdpr.php:27
+msgid "Matomo Analytics is privacy by design. All data collected is stored only within your own MySQL database, no other business (or Matomo team member) can access any of this information, and logs or report data will never be sent to other servers by Matomo"
+msgstr "Matomo Analytics通过设计保护隐私。收集的所有数据仅存储在您自己的MySQL数据库中，其他任何企业（或Matomo团队成员）都无法访问这些信息，并且Matomo永远不会将日志或报告数据发送到其他服务器"
+
+#: classes/WpMatomo/Admin/views/tracking.php:184
+msgid "Choose if you want to explicitly want to force Matomo to use HTTP or HTTPS. Does not work with a CDN URL."
+msgstr "选择是否要明确要强制Matomo使用HTTP或HTTPS。不适用于CDN URL。"
+
+#: classes/WpMatomo/Admin/views/tracking.php:171
+msgid "Set classes to be treated as outlinks (in addition to piwik_link), divided by a vertical bar (&#124;). Leave blank to keep Matomo's default settings."
+msgstr "将classes设置为出站链接（除了piwik_link以外），并用竖线（&#124;）分隔。留空以保留Matomo的默认设置。"
+
+#: classes/WpMatomo/Admin/views/tracking.php:169
+#: classes/WpMatomo/Admin/views/tracking.php:171
+msgid "See %1$sMatomo JavaScript Tracking Client reference%2$s."
+msgstr "请参阅%1$sMatomo JavaScript跟踪客户端参考%2$s。"
+
+#: classes/WpMatomo/Admin/views/tracking.php:169
+msgid "Set classes to be treated as downloads (in addition to piwik_download), divided by a vertical bar (&#124;). Leave blank to keep Matomo's default settings."
+msgstr "将classes设置为被视为下载链接（除了piwik_download之外），并用竖线（&#124;）分隔。保留空白以保留Matomo的默认设置。"
+
+#: classes/WpMatomo/Admin/views/tracking.php:167
+msgid "Replace Matomo's default file extensions for download tracking, divided by a vertical bar (&#124;). Leave blank to keep Matomo's default settings."
+msgstr "替换Matomo的默认文件扩展名以进行下载跟踪，并用竖线（&#124;）分隔。保留空白以保留Matomo的默认设置。"
+
+#: classes/WpMatomo/Admin/views/tracking.php:163
+msgid "See %1$sCloudFlare Knowledge Base%2$s."
+msgstr "请参阅%1$sCloudFlare知识库%2$s。"
+
+#: classes/WpMatomo/Admin/views/tracking.php:163
+msgid "Adds data-cfasync=false to the script tag, e.g., to ask Rocket Loader to ignore the script."
+msgstr "将data-cfasync = false添加到脚本标签，例如，要求Rocket Loader忽略脚本。"
+
+#: classes/WpMatomo/Admin/views/tracking.php:157
+msgid "When a user is logged in to WordPress, track their &quot;User ID&quot;. You can select which field from the User's profile is tracked as the &quot;User ID&quot;. When enabled, Tracking based on Email Address is recommended."
+msgstr "当用户被记录，追踪他们的“用户ID”。您可以选择哪些字段从用户的配置文件作为跟踪“用户ID”。启用后，建议基于电子邮件地址跟踪。"
+
+#: classes/WpMatomo/Admin/views/tracking.php:143
+msgid "RSS feed campaign"
+msgstr "RSS原广告系列"
+
+#: classes/WpMatomo/Admin/views/tracking.php:135
+msgid "When enabled, it will make sure to use the same visitor ID for the same visitor across several domains. This works only when this feature is enabled because the visitor ID is stored in a cookie and cannot be read on the other domain by default. When this feature is enabled, it will append a URL parameter \"pk_vid\" that contains the visitor ID when a user clicks on a URL that belongs to one of your domains. For this feature to work, you also have to configure which domains should be treated as local in your Matomo website settings."
+msgstr "启用后，它将确保对多个域中的同一位访问者使用相同的访问者ID。这仅在启用此功能时有效，因为访客ID存储在cookie中，并且默认情况下无法在其他域上读取。启用此功能后，当用户单击属于您的域之一的URL时，它将附加URL参数“ pk_vid”，其中包含访问者ID。要使用此功能，还必须在Matomo站点设置中配置应将哪些域视为本地域。"
+
+#: classes/WpMatomo/Admin/views/tracking.php:133
+msgid "Adds *.-prefix to tracked domain."
+msgstr "将*.-前缀添加到跟踪的域。"
+
+#: classes/WpMatomo/Admin/views/tracking.php:131
+msgid "Adds *.-prefix to cookie domain."
+msgstr "将*.-前缀添加到cookie域。"
+
+#: classes/WpMatomo/Admin/views/tracking.php:129
+msgid "Enable to track users on admin pages (remember to configure the tracking filter appropriately)."
+msgstr "启用可在管理页面上跟踪用户（切记要适当配置跟踪过滤器）。"
+
+#: classes/WpMatomo/Admin/views/tracking.php:127
+msgid "Referral timeout (seconds)"
+msgstr "引荐超时（秒）"
+
+#: classes/WpMatomo/Admin/views/tracking.php:121
+msgid "You can limit the cookie lifetime to avoid tracking your users over a longer period as necessary."
+msgstr "您可以限制cookie的生存时间，以避免在需要时较长时间跟踪您的用户。"
+
+#: classes/WpMatomo/Admin/views/tracking.php:95
+msgid "See %1$sMatomo FAQ%2$s."
+msgstr "请参阅%1$sMatomo常见问题解答%2$s。"
+
+#: classes/WpMatomo/Admin/views/tracking.php:95
+msgid "Matomo can automatically add a 404-category to track 404-page-visits."
+msgstr "Matomo可以自动添加404类别来跟踪404页面访问。"
+
+#: classes/WpMatomo/Admin/views/tracking.php:93
+#: classes/WpMatomo/Admin/views/tracking.php:103
+#: classes/WpMatomo/Admin/views/tracking.php:113
+#: classes/WpMatomo/Admin/views/tracking.php:119
+#: classes/WpMatomo/Admin/views/tracking.php:131
+#: classes/WpMatomo/Admin/views/tracking.php:133
+#: classes/WpMatomo/Admin/views/tracking.php:141
+#: classes/WpMatomo/Admin/views/tracking.php:167
+msgid "See %1$sMatomo documentation%2$s."
+msgstr "请参阅%1$sMatomo文档%2$s。"
+
+#: classes/WpMatomo/Admin/views/tracking.php:196
+msgid "By default the HTTP Tracking API points to your Matomo plugin directory \""
+msgstr "默认情况下，HTTP Tracking API指向您的Matomo插件目录“"
+
+#: classes/WpMatomo/Admin/views/tracking.php:51
+msgid "If you have created containers in the Tag Manager, you can select one of them and it will embed the code for the container automatically."
+msgstr "如果您在Tag Manager中创建了容器，则可以选择其中一个容器，它将自动嵌入容器的代码。"
+
+#: classes/WpMatomo/Admin/views/exclusion_settings.php:66
+msgid "Choose users by user role you do %1$snot%2$s want to track."
+msgstr "按您%1$s不要%2$s跟踪的用户角色选择用户。"
+
+#: classes/WpMatomo/Admin/views/info_bug_report.php:18
+msgid "Please read the recommendations on writing a good %1$sbug report%2$s or %3$sfeature request%4$s. Then register or login to %5$sour issue tracker%6$s and create a %7$snew issue%8$s."
+msgstr "请阅读有关编写良好的%1$sbug报告%2$s或%3$s功能要求%4$s的建议。然后注册或登录%5$s我们的问题跟踪工具%6$s，然后创建%7$s新的问题报告%8$s。"
+
+#: classes/WpMatomo/Admin/views/info_multisite.php:50
+msgid "We can migrate all your data onto our Cloud for free. 100% data ownership guaranteed."
+msgstr "我们可以免费将所有数据迁移到我们的云中。保证100％的数据所有权。"
+
+#: classes/WpMatomo/Admin/views/info_multisite.php:28
+msgid "In this mode, the tracking and access settings are managed by each individual blog. They cannot be managed in one central place for all blogs. An administrator or any user with the \"Matomo super user\" role can change these settings."
+msgstr "在这种模式下，跟踪和访问设置由每个单独的博客管理。不能将所有博客都放在一个中央位置进行管理。管理员或具有“Matomo超级用户”角色的任何用户都可以更改这些设置。"
+
+#: classes/WpMatomo/Admin/views/info_multisite.php:22
+msgid "In this mode, the tracking and access settings are managed in the network admin in one place and apply to all blogs."
+msgstr "在此模式下，跟踪和访问设置在网络管理员中的一个位置进行管理，并应用于所有博客。"
+
+#: plugins/WordPress/WordPress.php:86
+msgid "In WordPress Admin go to Matomo Analytics => Settings => Tracking to embed the tracking code."
+msgstr "在WordPress Admin中，转到Matomo Analytics =>设置=>跟踪以嵌入跟踪代码。"
+
+#: plugins/WordPress/Menu.php:60
+msgid "WordPress Admin"
+msgstr "WordPress管理"
+
+#: classes/WpMatomo/Admin/SystemReport.php:435
+msgid "Below dates are shown in blog timezone"
+msgstr "以下日期显示在博客时区中"
+
+#: classes/WpMatomo/Admin/SystemReport.php:433
+msgid "Blog time"
+msgstr "博客时间"
+
+#: classes/WpMatomo/Admin/views/info_multisite.php:23
+msgid "An administrator of a blog cannot view or change these settings."
+msgstr "博客的管理员无法查看或更改这些设置。"
+
+#. Plugin Name of the plugin
+msgid "Matomo Analytics - Ethical Stats. Powerful Insights."
+msgstr "Matomo Analytics-道德统计。强大的见解。"
+
+#: classes/WpMatomo/Admin/views/access.php:89
+msgid ""
+"You can also install a WordPress plugin which lets you manage capabilities for each individual users. These are\n"
+"    the supported capabilities:"
+msgstr "您还可以安装WordPress插件，该插件可让您管理每个用户的功能。这些是受支持的功能："
+
+#: classes/WpMatomo/Admin/views/access.php:73
+msgid ""
+"Want to give individual users access to Matomo? Simply create a user in your WordPress and assign of these roles\n"
+"    to the user:"
+msgstr "是否想让个人用户访问Matomo？只需在WordPress中创建一个用户并将这些角色分配给该用户："
+
+#: classes/WpMatomo/Admin/views/info_shared.php:19
+msgid ""
+"%1$sMatomo Analytics%2$s is the most powerful\n"
+"    analytics platform for WordPress, designed for your success. It is our mission to help you grow\n"
+"    your business while giving you %3$sfull control over your data%4$s. All\n"
+"    data is stored in your WordPress. You own the data, nobody else."
+msgstr "%1$sMatomo Analytics%2$s是适用于WordPress的功能最强大的分析平台，专为您的成功而设计。我们的使命是帮助您发展业务，同时让您%3$s完全控制您的数据%4$s。所有数据都存储在您的WordPress中。只有您拥有所有的数据。"
+
+#: classes/WpMatomo/Admin/views/info.php:47
+msgid ""
+"You can also help us by %1$sdonating%2$s or by %3$spurchasing premium plugins%4$s which fund the\n"
+"        development of the free Matomo Analytics version."
+msgstr "您还可以通过%1$sdonating%2$s或%3$s购买高级插件%4$s来帮助我们，这些插件为免费的Matomo Analytics版本的开发提供了资金。"
+
+#: classes/WpMatomo/Admin/views/info_multisite.php:34
+msgid ""
+"If you are managing quite a few sites or have quite a bit of traffic then we recommend installing %1$sMatomo On-Premise%2$s separately outside WordPress (it's free as well) and use it in combination with the %3$sWP-Matomo%4$s WordPress plugin.\n"
+"        Your Matomo will then run a lot faster, you can put Matomo on a separate server if needed, and it allows you to make use of additional features such as %5$sRoll-Up Reporting%6$s."
+msgstr "如果您正在管理许多站点或有大量流量，那么我们建议在WordPress之外单独安装%1$sMatomo On-Premise%2$s（它也是免费的），并将其与%3$sWP结合使用-Matomo%4$s WordPress插件。 Matomo随后将运行得更快，您可以根据需要将Matomo放在单独的服务器上，并允许您使用其他功能，例如%5$sRoll-Up Reporting%6$s。"

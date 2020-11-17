@@ -1,0 +1,67 @@
+# Translation of Themes - ARzine in Chinese (China)
+# This file is distributed under the same license as the Themes - ARzine package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-09-04 16:34:14+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Themes - ARzine\n"
+
+#. Description of the theme
+msgid "Arzine is a responsive, multi-purpose WordPress theme. It’s flexible and suitable for agencies, blogs, business, corporate or portfolios. Customization is easy and straight-forward, with options provided that allow you to setup your site to perfectly fit your desired online presence. Arzine offers a beautifully designed masonry blog layout. For more details, visit this link https://wordpress.org/themes/busiprof/. We hope you will find the Arzine theme useful."
+msgstr "Arzine是一个响应式，多功能的WordPress主题。灵活的它，适合显示机构、博客、商业、公司或作品集。定制是容易和直接的，提供的选项能让您设置您的站点，以完全符合您所期望的在线存在。Arzine提供设计精美的砖石式博客布局。有关更多详细信息，请访问此链接https://wordpress.org/themes/busiprof/。我们希望您会发现Arzine主题有用。"
+
+#. Theme Name of the theme
+msgid "ARzine"
+msgstr "ARzine"
+
+#: archive.php:20 archive.php:24 archive.php:28 author.php:17 category.php:18
+#: tag.php:18
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: single.php:50
+msgid "Leave a comment"
+msgstr "留下评论"
+
+#: search.php:28
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "抱歉，没有符合您搜索条件的结果。请换其它关键词再试。"
+
+#: archive.php:76 front-page.php:101 search.php:36 index.php:27 author.php:54
+#: category.php:55 tag.php:55
+msgid "Next"
+msgstr "下一个"
+
+#: archive.php:75 front-page.php:100 search.php:35 index.php:26 author.php:53
+#: category.php:54 tag.php:54
+msgid "Previous"
+msgstr "上一"
+
+#: content.php:35 front-page.php:83
+msgid "by"
+msgstr "作者"
+
+#: single.php:60 content.php:28 front-page.php:76
+msgid "Read More"
+msgstr "阅读更多"
+
+#: search.php:27
+msgid "Nothing Found"
+msgstr "未找到"
+
+#. Author URI of the theme
+msgid "https://www.webriti.com"
+msgstr "https://www.webriti.com"
+
+#. Author of the theme
+msgid "webriti"
+msgstr "webriti"
+
+#. Theme URI of the theme
+msgid "https://webriti.com/arzine-wordpress-page/"
+msgstr "https://webriti.com/arzine-wordpress-page/"

@@ -1,0 +1,6 @@
+Sitemap: https://wp.whatareu.top/sitemap-1.xml
+Sitemap: https://wp.whatareu.top/image-sitemap-1.xml
+Sitemap: https://wp.whatareu.top/news-sitemap.xml
+Sitemap: https://wp.whatareu.top/sitemap.xml
+User-agent: *
+Allow: /
